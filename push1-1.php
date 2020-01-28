@@ -11,12 +11,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body{
+    body {
       font-family: 'Mitr', sans-serif;
     }
-    .green{
+
+    .green {
       background-color: #00b32d;
     }
   </style>
@@ -25,14 +26,28 @@
 <body>
   <nav class="navbar navbar-secondary green navbar-expand-sm">
     <a class="navbar-brand" href="#">
-      <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="50" height="50" alt=""> <span>auto-reply line @</span>
+      <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="50" height="50" alt="">
     </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </div>
+    </div>
   </nav>
   <div class="container">
     <div class="row mt-4">
       <div class="col-md-12">
         <div class="card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmO-2H6gB0Z1sarIOyw-aJoS3C1_yNklvnbIz0FFHIOnYsnoP" class="card-img-top" alt="line-cover">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmO-2H6gB0Z1sarIOyw-aJoS3C1_yNklvnbIz0FFHIOnYsnoP"
+            class="card-img-top" alt="line-cover">
           <div class="card-header">
             <h6>ตอบกลับ <span class="badge badge-success"><?php echo $name;?></span></h6>
           </div>
