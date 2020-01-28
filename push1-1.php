@@ -1,3 +1,6 @@
+<?php
+  $name = $_REQUEST['name'];
+?>
 <!DOCTYPE html>
 <html>
 
@@ -5,44 +8,22 @@
   <title>Reply Chat-Bot</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <style>
-    body {
-      background: #ccc;
-    }
-
-    input[type=text] {
-      width: 218px;
-    }
-
-    input[type=submit] {
-      background: #000;
-      color: #fff;
-    }
-
-    input[type=submit],
-    input[type=text] {
-      padding: 9px;
-      font-size: 18px;
-      line-height: 18px;
-      float: left;
-      border: 0;
-      display: block;
-      margin: 0;
-    }
-  </style>
 </head>
 
 <body>
   <div class="container">
     <div>
-      <span> answer to <?php echo $id?> </span>
+      <span> answer to <?php echo $name?> </span>
     </div>
-    <form action="" method="post">
-      <div class="form-group">
-        <input type="text" name="msg"><br><br>
-        <input class="btn btn-primary" type="submit" name="SubmitButton">
-      </div>
-    </form>
+    <div class="text-center">
+      <form action="" method="post">
+        <div class="form-group">
+          <input type="text" name="msg"><br><br>
+          <input class="btn btn-primary" type="submit" name="SubmitButton">
+        </div>
+      </form>
+    </div>
+
   </div>
 </body>
 
