@@ -24,13 +24,15 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-secondary green navbar-expand-sm">
-    <div class="text-center">
-      <a class="navbar-brand" href="#">
-        <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="50" height="50" alt="">
-      </a>
-    </div>
-  </nav>
+  <div class="text-center">
+    <nav class="navbar navbar-secondary green navbar-expand-sm">
+      <div>
+        <a class="navbar-brand" href="#">
+          <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="50" height="50" alt="">
+        </a>
+      </div>
+    </nav>
+  </div>
   <div class="container">
     <div class="row mt-4">
       <div class="col-md-12">
