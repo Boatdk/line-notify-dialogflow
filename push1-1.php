@@ -1,5 +1,6 @@
 <?php
-  $name = $_REQUEST['name'];
+  $user_id = $_REQUEST['uid'];
+  $name = substr($user_id, 38);
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,7 +30,7 @@
         <div class="card">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmO-2H6gB0Z1sarIOyw-aJoS3C1_yNklvnbIz0FFHIOnYsnoP" class="card-img-top" alt="line-cover">
           <div class="card-header">
-            <h6>ตอบกลับ <span class="badge badge-success"><?php echo $_REQUEST['name'];?></span></h6>
+            <h6>ตอบกลับ <span class="badge badge-success"><?php echo $name;?></span></h6>
           </div>
           <div class="card-body">
             <form action="" method="post">
@@ -56,7 +57,8 @@
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <?php
 error_reporting(0);
-$id = $_REQUEST['uid'];
+$user_id = $_REQUEST['uid'];
+$id = substr($user_id, 0, 33);
 if(isset($_POST['SubmitButton'])){
 $msg = $_POST["msg"];
 
