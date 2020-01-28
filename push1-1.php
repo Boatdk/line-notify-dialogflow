@@ -12,9 +12,9 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">
-      <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbTO5jY9_Y6YL_72Vg881504Zu-lA0dxrnR8GdIE3Xaly8PqrU" width="30" height="30" alt="">
     </a>
   </nav>
   <div class="container">
@@ -23,14 +23,14 @@
         <div class="card">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmO-2H6gB0Z1sarIOyw-aJoS3C1_yNklvnbIz0FFHIOnYsnoP" class="card-img-top" alt="line-cover">
           <div class="card-header">
-            <h3>ตอบกลับไปยังไลน์ <?php echo $_REQUEST['uid'];?></h3>
+            <h6>ตอบกลับไปยังไลน์ <span class="badge badge-success"><?php echo $_REQUEST['uid'];?></span></h6>
           </div>
           <div class="card-body">
             <form action="" method="post">
               <div class="form-group">
                 <input class="form-control" type="text" name="msg">
               </div>
-              <input class="btn btn-primary" type="submit" name="SubmitButton">
+              <input class="btn btn-success btn-sm" type="submit" name="SubmitButton" value="ส่ง">
             </form>
           </div>
         </div>
