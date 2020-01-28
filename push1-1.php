@@ -29,7 +29,7 @@
         <div class="card">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmO-2H6gB0Z1sarIOyw-aJoS3C1_yNklvnbIz0FFHIOnYsnoP" class="card-img-top" alt="line-cover">
           <div class="card-header">
-            <h6>ตอบกลับไปยังไลน์ <span class="badge badge-success"><?php echo $_REQUEST['name'];?></span></h6>
+            <h6>ตอบกลับ <span class="badge badge-success"><?php echo $_REQUEST['name'];?></span></h6>
           </div>
           <div class="card-body">
             <form action="" method="post">
