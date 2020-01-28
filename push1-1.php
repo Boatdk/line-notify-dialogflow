@@ -36,7 +36,9 @@
               <div class="form-group">
                 <input class="form-control" type="text" name="msg">
               </div>
-              <input class="btn btn-success btn-sm" type="submit" name="SubmitButton" value="ส่ง">
+              <div class="text-right">
+                <input class="btn btn-success btn-sm" type="submit" name="SubmitButton" value="ส่ง">
+              </div>
             </form>
           </div>
         </div>
