@@ -7,6 +7,7 @@
 
 <head>
   <title>Reply Chat-Bot</title>
+  <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" alt="Line" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-secondary bg-secondary">
+  <nav class="navbar navbar-secondary bg-secondary" style="color: #00e639">
     <a class="navbar-brand" href="#">
       <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="30" height="30" alt="">
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
