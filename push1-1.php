@@ -11,6 +11,11 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+    </a>
+  </nav>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
