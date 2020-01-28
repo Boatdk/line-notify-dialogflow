@@ -25,12 +25,7 @@
 <body>
   <nav class="navbar navbar-secondary green">
     <a class="navbar-brand" href="#">
-      <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="30" height="30" alt="">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="">auto-reply line @</a>
-        </div>
-      </div>
+      <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="50" height="50" alt="">auto-reply line @
     </a>
   </nav>
   <div class="container">
