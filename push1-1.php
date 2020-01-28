@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbTO5jY9_Y6YL_72Vg881504Zu-lA0dxrnR8GdIE3Xaly8PqrU" width="30" height="30" alt="">
     </a>
