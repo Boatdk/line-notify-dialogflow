@@ -19,7 +19,7 @@ $profile_array = json_decode($profile_json,true);
 $pic_ = $profile_array[pictureUrl];
 $name_ = $profile_array[displayName];
 //$message_all = "คุณ ".$name." ถามว่า ".$message;
-$message_all = '[Line_mad] '.$name_.' ถามว่า '.$message.' '.'https://urlสำหรับpush1–1/test.php?uid='.$userId;
+$message_all = '[Line_mad] '.$name_.' ถามว่า '.$message.' '.'https://https://line-notify-none-intent.herokuapp.com/push1-1.php?uid='.$userId;
 
 $date_ = date("Y-m-d");
 $time_ = date("H:i:s");
