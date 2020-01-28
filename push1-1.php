@@ -66,7 +66,7 @@ CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 CURLOPT_CUSTOMREQUEST => "POST",
 CURLOPT_POSTFIELDS => "{\r\n\r\n \"to\": \"$id\",\r\n\r\n \"messages\": [{\r\n\r\n \"type\": \"text\",\r\n\r\n \"text\": \"$msg\"\r\n\r\n }]\r\n\r\n}",
 CURLOPT_HTTPHEADER => array(
-"authorization: Bearer line_token",
+"authorization: Bearer Not-in-Intent",
 "cache-control: no-cache",
 "content-type: application/json",
 "postman-token: 99e1d5c3-fd7a-8163-c413–687e5cb8e3c8"
