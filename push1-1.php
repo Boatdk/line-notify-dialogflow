@@ -19,9 +19,14 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-light">
+  <nav class="navbar navbar-secondary bg-secondary">
     <a class="navbar-brand" href="#">
       <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="30" height="30" alt="">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="">auto-reply line @</a>
+        </div>
+      </div>
     </a>
   </nav>
   <div class="container">
