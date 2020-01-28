@@ -19,7 +19,7 @@ $profile_array = json_decode($profile_json,true);
 $pic_ = $profile_array[pictureUrl];
 $name_ = $profile_array[displayName];
 //$message_all = "คุณ ".$name." ถามว่า ".$message;
-$message_all = '[Line_mad] '.$name_.' ถามว่า '.$message.' '.'https://line-notify-none-intent.herokuapp.com/push1-1.php?uid='.$userId;
+$message_all = 'K.'.$name_.' ถามว่า '.$message.' '.'https://line-notify-none-intent.herokuapp.com/push1-1.php?uid='.$userId;
 
 $date_ = date("Y-m-d");
 $time_ = date("H:i:s");
@@ -39,7 +39,7 @@ curl_setopt( $chOne, CURLOPT_POST, 1);
 // Message
 curl_setopt( $chOne, CURLOPT_POSTFIELDS, $message);
 //ถ้าต้องการใส่รุป ให้ใส่ 2 parameter imageThumbnail และimageFullsize
-curl_setopt( $chOne, CURLOPT_POSTFIELDS, "message=$message_all&imageThumbnail=$pic_&imageFullsize=$pic_");
+curl_setopt( $chOne, CURLOPT_POSTFIELDS, "message=$message_all");
 // follow redirects
 curl_setopt( $chOne, CURLOPT_FOLLOWLOCATION, 1);
 //ADD header array
