@@ -17,13 +17,13 @@
       font-family: 'Mitr', sans-serif;
     }
     .green{
-      background-color: #00e639;
+      background-color: #80ff9f;
     }
   </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-secondary green">
+  <nav class="navbar navbar-secondary green navbar-expand-sm">
     <a class="navbar-brand" href="#">
       <img src="http://shemagazine.net/wp-content/uploads/2018/02/line-logo.png" width="50" height="50" alt="">auto-reply line @
     </a>
