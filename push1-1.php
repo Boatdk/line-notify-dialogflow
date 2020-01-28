@@ -18,17 +18,17 @@
     </a>
   </nav>
   <div class="container">
-    <div class="row">
+    <div class="row mt-4">
       <div class="col-md-12">
         <div class="card">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmO-2H6gB0Z1sarIOyw-aJoS3C1_yNklvnbIz0FFHIOnYsnoP" class="card-img-top" alt="line-cover">
           <div class="card-header">
-            ตอบกลับไปยังไลน์ <?php echo $_REQUEST['uid'];?>
+            <h3>ตอบกลับไปยังไลน์ <?php echo $_REQUEST['uid'];?></h3>
           </div>
           <div class="card-body">
             <form action="" method="post">
               <div class="form-group">
-                <input type="text" name="msg">
+                <input class="form-control" type="text" name="msg">
               </div>
               <input class="btn btn-primary" type="submit" name="SubmitButton">
             </form>
